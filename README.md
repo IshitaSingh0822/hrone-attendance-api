@@ -30,7 +30,6 @@ Set them in the environment or in a local, uncommitted `.env` file. Never commit
 
 ## Run
 ```bash
-python sample_seed.py                      # optional: load the sample data
 uvicorn app.main:app --port 8000 --reload
 ```
 Swagger UI: http://localhost:8000/docs
